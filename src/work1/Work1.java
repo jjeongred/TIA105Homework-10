@@ -13,10 +13,10 @@ public class Work1 {
     	
     	// 算出256559秒為多少天、多少小時、多少分與多少秒
     	int num4 = 256559;
-    	System.out.println(num4 / (60 * 60 * 24) + "天");
-    	System.out.println((num4 / (60 * 60)) % 24  + "小時");
-    	System.out.println((num4 / (60 * 60)) % 60  + "分");
-    	System.out.println((num4 / (60 * 60)) % 120  + "秒");
+    	System.out.print(num4 / (60 * 60 * 24) + " 天 ");
+    	System.out.print((num4 / (60 * 60)) % 24  + " 小時 ");
+    	System.out.print((num4 / (60 * 60)) % 60  + " 分 ");
+    	System.out.println((num4 / (60 * 60)) % 120  + " 秒 ");
     	
     	/* 請定義一個常數為3.1415(圓周率)，
     	 * 並計算半徑為5的圓面積與圓周長
